@@ -1,0 +1,82 @@
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #FFFFFF;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 50px;
+      margin-right: 10px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    nav ul li a {
+      color: #008000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hotline {
+      background: #00aa00;
+      padding: 5px 10px;
+      border-radius: 4px;
+    }
+    .banner {
+      background: linear-gradient(to right, #e9fbe5, #ffffff);
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .banner h2 {
+      font-size: 24px;
+      color: #007000;
+      margin-bottom: 20px;
+    }
+    .banner img {
+      max-width: 100%;
+      height: auto;
+    }
+    .floating-bar {
+      position: fixed;
+      right: 0;
+      top: 30%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .floating-bar button {
+      background: #007000;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px 0 0 5px;
+    }
+    .footer-ticker {
+      background: #eeeeee;
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+    .footer-ticker strong {
+      color: #000;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
